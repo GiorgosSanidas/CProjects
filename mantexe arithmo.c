@@ -7,7 +7,7 @@ int main (){
 	int i,number; // dilosi metavliton 
 	time_t t;
 	
-	srand(4822); // arxikopio thn srand me to aem mou
+	srand(4402); // arxikopio thn srand me to aem mou
 	  
     int rand_num = (rand() % (300 - 1 + 1)) + 1; // ftiaxno to range pou thelo kai to pernao sthn rand_num oste na to xrisimopio sthn sienexia
    // printf("%d",rand_num);
@@ -38,7 +38,7 @@ int main (){
 										  
 	}
 	
-	if (i=10) printf ("RIGHT !"); // i>10 simeni oti o xristis vrike ton arithmo
+	if (i==10) printf ("RIGHT !"); // i>10 simeni oti o xristis vrike ton arithmo
 	
 	else printf("FAILURE\nThe number was : %d ",rand_num); // to i apo to for eftase to 8 xoris o xristis na vri ton arithmo
 	
